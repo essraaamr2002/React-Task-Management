@@ -9,6 +9,8 @@ import AddModal from "../../components/Modals/AddModal";
 import Task from "../../components/Task";
 
 const Home = () => {
+	// const [count, setCount] = useState<number>(0); بيقولي يعني ان من نوع كولوم
+
 	const [columns, setColumns] = useState<Columns>(Board);
 	const [modalOpen, setModalOpen] = useState(false);
 	const [selectedColumn, setSelectedColumn] = useState("");
