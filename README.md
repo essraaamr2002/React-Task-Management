@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+# React Task Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A task-management frontend built with **React, TypeScript and Vite**. This repository demonstrates a component-based approach to organizing interactive task interfaces.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React 18 and TypeScript
+- Vite
+- React Router
+- Styled Components and Tailwind CSS
+- react-beautiful-dnd (drag-and-drop library)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What to Explore
+- Application components and task-related UI
+- Routing and client-side interactions
+- Styling and layout implementation
+- How the project organizes its TypeScript source
 
-## Expanding the ESLint configuration
+## Getting Started
+```bash
+npm install
+npm run dev
+```
+Open the local URL shown by Vite.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Checks
+```bash
+npm run build
+npm run lint
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Notes
+This repository is a frontend project. It is **not** presented as a completed backend or database system. Features should be evaluated against the current source code.
+
+[Back to my GitHub profile](https://github.com/essraaamr2002)
