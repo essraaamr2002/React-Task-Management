@@ -1,34 +1,23 @@
 # React Task Management
 
-A task-management frontend built with **React, TypeScript and Vite**. This repository demonstrates a component-based approach to organizing interactive task interfaces.
+A task-management frontend built with React, TypeScript and Vite.
 
-## Tech Stack
-- React 18 and TypeScript
-- Vite
-- React Router
-- Styled Components and Tailwind CSS
-- react-beautiful-dnd (drag-and-drop library)
+## Technology
+React 18, TypeScript, Vite, React Router, Styled Components, Tailwind CSS and react-beautiful-dnd.
 
-## What to Explore
-- Application components and task-related UI
-- Routing and client-side interactions
-- Styling and layout implementation
-- How the project organizes its TypeScript source
+## Explore
+Review the components, routing, task UI and drag-and-drop integration in the source code.
 
-## Getting Started
+## Getting started
 ```bash
 npm install
 npm run dev
 ```
-Open the local URL shown by Vite.
 
-## Checks
+## Quality checks
 ```bash
 npm run build
 npm run lint
 ```
 
-## Notes
-This repository is a frontend project. It is **not** presented as a completed backend or database system. Features should be evaluated against the current source code.
-
-[Back to my GitHub profile](https://github.com/essraaamr2002)
+**Scope:** Frontend application; no custom backend or database is claimed.
